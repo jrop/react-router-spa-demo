@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>React Router 1.0.0</title>
+	<link rel="stylesheet" href="build/css/style.css" />
+	
+	@if (model.initialStateJson) {
+	<script>
+	window.initialStateJson = @html.raw(model.initialStateJson)
+	</script>
+	}
+
+	<script src="build/js/app.js"></script>
+</head>
+<body>@html.raw(model.content || '')</body>
+</html>

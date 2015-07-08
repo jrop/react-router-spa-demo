@@ -1,0 +1,56 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body .react-app {
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+	box-shadow: 0 0 5px 5px fade(black, 10%);
+	min-height: 100%;
+
+	header {
+		h1 {
+			margin: 0;
+			padding: 15px;
+		}
+
+		nav {
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				background: orange;
+				text-align: center;
+
+				li {
+					display: inline-block;
+
+					a {
+						color: white;
+						padding: 15px;
+						display: block;
+						text-decoration: none;
+					}
+
+					a:hover {
+						background: lighten(orange, 10%);
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		padding: 15px;
+	}
+}
