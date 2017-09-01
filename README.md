@@ -1,6 +1,8 @@
 react-router-spa-demo
 =====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/react-router-spa-demo.svg)](https://greenkeeper.io/)
+
 This is a very simple project that can render the requested page on the server-side, and then leave any other rendering to the client (using React + react-router).  It reuses as much code as possible (i.e., the React Components to construct the views).
 
 Building
